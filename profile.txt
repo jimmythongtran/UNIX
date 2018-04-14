@@ -1,0 +1,4 @@
+# \w - current working directory
+# \! current command history number
+# A # if the effective user ID is zero (root), or a $ otherwise
+export PS1="\w \! \$ "
